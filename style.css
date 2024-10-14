@@ -1,0 +1,537 @@
+html {
+  font-family: 'Nunito Sans';
+  margin-left: -8px;
+  scroll-behavior: smooth;
+}
+  
+body{
+  background-color: #F2C7B4;
+}
+
+.image{
+  width: 75px;  
+  height: 82px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 104px;
+}
+  
+.menu-nav{
+  width: 100vw;
+  height: 112px;
+  background-color: #F2C7B4;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+    
+.menu-nav ul{
+  display: inline-flex;
+  list-style: none;
+  margin-top: 33px;
+  margin-bottom: 38px;
+  flex-flow: row-wrap;
+}
+    
+.menu-nav ul li{
+  text-decoration: none;
+  
+}
+    
+.nav-menu ul li a{
+  color: white; 
+  font-size: 30px;
+  text-decoration: none;
+}
+
+#homes{
+  margin-right: 45px;
+}
+
+#events{
+  margin-right: 39px;
+}
+
+#abouts{
+  margin-right: 40px;
+}
+
+#contact{
+  margin-right: 105px;
+}
+    
+.footerbox{
+  background-color: #F9CDB9;
+  width: 100vw;
+  height: 397px;
+}
+
+.box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#copyright{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+    
+#biru{
+  display: inline-flex;
+  width: 163px;
+  height: 203px;
+  margin-top: 74px;
+  margin-bottom: 43px;
+  margin-left: 122px; 
+}
+
+#binus{
+  display: inline-flex;
+  width: 253px;
+  height: 156px;
+  margin-left: 47px;
+  margin-top: 97px;
+  margin-bottom: 67px; 
+}
+
+.footers{
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+}
+
+.footersicon{
+  margin-bottom: 79px;
+  margin-top: 110px;
+  margin-right: 150px;
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+}
+.gatauiniapa{
+  width: 100vw;
+  box-sizing: border-box;
+  font-family: 'Nunito Sans';
+  background-color:#fbd5c4;
+}
+.aboutus{
+  width: 100%;
+  background-color: #fbd5c4;
+}
+.aboutus .container{
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0px;
+}
+.aboutus .container .title{
+  width: 332px;
+  margin-left: 591px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  font-size: 48px;
+}
+.aboutus .container .title h1{
+  text-transform: uppercase;
+  font-size: 48px;
+  color: #9E616A;
+}
+.aboutus .container .title h1::after{
+  content: "";
+  height: 8px;
+  width: 299px;
+  background-color: #9E616A;
+  display: block;
+  margin: auto;
+}
+.aboutus .container .barang{
+  display: flex;
+  flex-direction: row;
+}
+.aboutus .container .barang .content{
+  margin-left: 145px;
+  font-size: 24px;
+  margin-top: 115px;
+  width: 781px;
+  height: 132px;
+}
+.aboutus .container .barang .image-section img{
+  width: 217px;
+  height: 265px;
+  margin-left: 225px;
+  margin-top: 71px;
+}
+.contactus{
+  width: 1143px;
+  margin-top: 98px;
+}
+.contactus .container{
+  width: 789px;
+  display: flex;
+  flex-direction: column;
+}
+.contactus .container .title{
+  margin-left: 385px;
+  letter-spacing: 0.1em;
+  width: 680px;
+  text-align: center;
+}
+.contactus .container .title h1{
+  text-transform: uppercase;
+  font-size: 48px;
+  color: #9E616A;
+}
+.contactus .container .title h1::after{
+  content: "";
+  height: 8px;
+  width: 360px;
+  background-color: #9E616A;
+  display: block;
+  margin: auto;
+}
+.contactus .container .text{
+  margin-left: 544px;
+  width: 343px;
+  font-size: 24px;
+  text-align: center;
+}
+.contactus .container .kontek{
+  width: 789px;
+  height: 74px;
+  margin-top: 31px;
+  margin-left: 326px;
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+}
+.contactus .container .kontek .email{
+  border-radius: 35px 0 0 35px;
+  border: black 1px;
+  padding-left: 25px;
+  width: 618px;
+  height: 74px;
+  font-size: 25px;
+}
+.contactus .container .kontek .button{
+  border-radius: 0 35px 35px 0;
+  border: black 1px;
+  width: 171px;
+  height: 74px;
+  font-size: 24px;
+  background-color: #9E616A;
+  margin-left: -3px;
+}
+.cp .lineCss .convex .line{
+  width: 32px;
+  height: 20px;
+  margin-left: -220px;
+  margin-top: 10px;
+}
+.cp .lineCss .htmlCss{
+  display: flex;
+  flex-direction: column;
+  width: 212px;
+  margin-left: 155px;
+}
+.cp .lineCss .convex{
+  margin-top: 30px;
+  margin-bottom: 77px;
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+}
+.cp .lineCss{
+  margin-top: 88px;
+  font-size: 25px;
+  display: flex;
+}
+.cp{
+  margin-top: 78px;
+  width: 1035px;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Poppins';
+}
+.cp .contactPerson{
+  margin-top: 99px;
+  margin-bottom: 98px;
+  font-size: 24px;
+  width: 228px;
+  margin-left: 228px;
+  white-space: nowrap;
+}
+.events{
+  width: 100vw;
+  background-color: #9e616a;
+  overflow: hidden;
+}
+.events .container .title{
+  width: 100%;
+  text-align: center;
+  letter-spacing: 10px;
+  padding-top: 75px;
+  margin-bottom: 75px;
+}
+.events .container .title h1{
+  text-transform: uppercase;
+  font-size: 48px;
+  color: #ffffff;
+  font-family: "Nunito Sans";
+}
+.events .container .title h1::after{
+  content: "";
+  height: 5px;
+  width: 250px;
+  background-color: #ffffff;
+  display: block;
+  margin: auto;
+}
+.events .company{
+  font-family: "Poppins";
+  text-align: center;
+  font-size: 24px;
+}
+.events .companyInfo{
+  font-family: "Poppins";
+  text-align: center;
+  font-size: 12px;
+  margin-top: -20px;
+  margin-right: 40px;
+  margin-left: 40px;
+  padding-bottom: 30px;
+}
+.events .register{
+  font-family: "Poppins";
+  color: #ffffff;
+  background: #9e616a;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 30px;
+  padding: 13px 20px;
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-top: -25px;
+}
+.events .rowflex{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+.events .rowflex2{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+.events .card{
+  box-shadow: 0px 10px 8px 5px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background: #ffffff;
+  width: 365px;
+  height: 580px; 
+  border-radius: 30px;
+  /* padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto; */
+}
+.events .card1{
+  box-shadow: 0px 10px 8px 5px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background: #ffffff;
+  width: 365px;
+  height: 580px; 
+  border-radius: 30px;
+  margin-bottom: 50px;
+  /* padding-bottom: 50px;
+  margin-left: 200px;
+  margin-right: auto; */
+}
+.events .card2{
+  box-shadow: 0px 10px 8px 5px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background: #ffffff;
+  width: 365px;
+  height: 580px; 
+  border-radius: 30px;
+  margin-bottom: 50px;
+  /* padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: 200px; */
+}
+.events .center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.events img{
+  width: 365px;
+  height: 275.44px;
+  object-fit: cover;
+  border-radius: 30px 30px 0px 0px;
+}
+
+.bootcamp{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  background-color: #f2c8b4;
+}
+.bootcamp .title{
+  width: 100%;
+  padding-top: 75px;
+  margin-right: 113px;
+  font-family: "Nunito Sans";
+  color: #ffffff;
+}
+.bootcamp .title h1{
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 72px;
+}
+.learnmore{
+  background: #9e616a;
+  float: right;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 70px;
+  padding: 20px 45px;
+  width: auto;
+  margin-bottom: 40px;
+  /* margin-right: 80px;
+  margin-left: 80px; */
+}
+.sally{
+  /* object-fit: cover; */
+  margin-left: 20px;
+  width: 581px;
+  height: 581px;
+}
+
+@media all and (max-width: 1024px){
+  .menu-nav{
+    flex-flow: row;
+    white-space: none;
+    margin-left: -15%
+  }
+  .nav-menu{
+    flex-flow: row;
+    white-space: none;
+  }
+  .image{
+    display: flex;
+    margin-right: 1%;
+    width: 10%;
+    height: 60%;
+  }
+  
+  #homes{
+    margin-left: -20px;
+    margin-right: 40px;
+  }
+
+  #events{
+    margin-right: 37px;
+  }
+
+  #abouts{
+    margin-right:70px;
+    white-space: nowrap;
+  }
+
+  #contact{
+    margin-left: -45px;
+    white-space: nowrap;
+  }
+
+  .gatauiniapa{
+    flex-wrap: wrap;
+    margin-left: -50%;
+  }
+
+  .gatauiniapa .aboutus .container .barang .image-section{
+    display: none;
+  }
+  
+  .aboutus .container .article{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    margin-top: -128px;
+    margin-left: 300px;
+  }
+
+  .contactus .container .kontek .email{
+    border-radius: 35px 0 0 35px;
+    border: black 1px;
+    padding-left: 25px;
+    width: 290px;
+    height: 74px;
+    font-size: 17px;
+  }
+  .contactus .container .kontek .button{
+    border-radius: 0 35px 35px 0;
+    border: black 1px;
+    width: 121px;
+    height: 74px;
+    font-size: 17px;
+    background-color: #9E616A;
+    margin-left: -3px;
+  }
+
+  .aboutus .container .title{
+    flex-flow: row;
+  }
+
+  .nav-menu ul li a{ 
+    font-size: 18px;
+    text-decoration: none;
+  }
+  .bootcamp{
+      flex-flow: row wrap;
+      margin-top: 18%;
+  }
+  .bootcamp .title{
+      margin-right: 0px;
+  }
+  .bootcamp .title h1{
+      /* float: center; */
+      text-align: center;
+  }
+  .learnmore{
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    float: none;
+  }
+}
+/* 
+@media all and (max-width: 1024px){
+  .bootcamp{
+      flex-flow: row wrap;
+  }
+  .bootcamp .title{
+      margin-right: 0px;
+  }
+  .bootcamp .title h1{
+      text-align: center;
+  }
+  .learnmore{
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    float: none;
+  }
+} */
